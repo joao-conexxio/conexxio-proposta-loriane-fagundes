@@ -1,0 +1,341 @@
+{
+  "slug": "loriane-fagundes",
+  "negocio": {
+    "nome": "Dra. Loriane Fagundes",
+    "whatsapp": "5531992013326",
+    "telefone": "(31) 99201-3326",
+    "funcionamento": {
+      "seg": "09:00-19:00",
+      "ter": "09:00-19:00",
+      "qua": "09:00-19:00",
+      "qui": "09:00-19:00",
+      "sex": "09:00-19:00",
+      "sab": "09:00-15:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Castelo · Belo Horizonte",
+        "endereco": "Av. dos Engenheiros, 363, sala 08, 2º andar – Castelo, Belo Horizonte – MG, 30840-300",
+        "telefone": "(31) 99201-3326",
+        "horario": "Segunda a sexta, 9h às 19h · Sábado, 9h às 15h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#94574D",
+    "brand2": "#5E342E",
+    "ink": "#1E1715",
+    "bg": "#FAF6F3",
+    "pulse": "#D29A8C",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Toxina",
+            "href": "#toxina"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#avaliacoes"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Biomedicina estética · BH",
+        "h1": "Harmonização e pele no Castelo, perto da Pampulha",
+        "lead": "A Dra. Loriane Fagundes é biomédica esteta e atende em consultório próprio na Av. dos Engenheiros. Toxina, lábios, contorno do rosto, melasma e limpeza de pele, sempre com avaliação antes de qualquer agulha.",
+        "cta": "Marcar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/consultorio.jpg",
+        "imagemAlt": "Consultório da Dra. Loriane Fagundes, com parede de mármore e o monograma LF, mesa branca, maca e aparelhos",
+        "tarja": [
+          "5,0 no Google, 107 avaliações",
+          "Atendimento com a própria Dra. Loriane",
+          "Sábado das 9h às 15h",
+          "Entrada acessível"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Preenchimento labial",
+          "Perfiloplastia",
+          "Rinomodelação",
+          "Melasma",
+          "Limpeza de pele",
+          "Vasinhos",
+          "Olheiras"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "texto": [
+          "Quem marca com a Dra. Loriane é atendido por ela, do primeiro olhar no espelho ao retorno.",
+          "Ela explica cada ponto antes de aplicar, respeita o tempo de quem está insegura e prefere um resultado que pareça seu. É por isso que tanta paciente volta, e traz a mãe, a irmã, a sogra."
+        ],
+        "imagem": "midia/sala.jpg",
+        "imagemAlt": "Sala de espera da clínica, com poltrona clara, parede de mármore e quadros"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "A indicação sai da avaliação. Aqui está o que a Dra. Loriane faz no consultório.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas da testa, entre as sobrancelhas e ao redor dos olhos, mantendo a expressão. Revisão em cerca de 15 dias.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento labial",
+            "descricao": "Contorno e volume na medida do seu rosto, planejados na avaliação. Dá para começar discreto e ajustar depois.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Perfiloplastia",
+            "descricao": "Nariz, queixo e mandíbula tratados em conjunto, para equilibrar o perfil sem cirurgia.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Rinomodelação",
+            "descricao": "Ajuste do dorso e da ponta do nariz com preenchedor, em uma sessão.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Melasma",
+            "descricao": "Tratamento das manchas em etapas, combinando procedimentos no consultório com os cuidados em casa.",
+            "icone": "sol"
+          },
+          {
+            "nome": "Limpeza de pele e peeling",
+            "descricao": "Higienização, extração e ativos para o seu tipo de pele. Nas avaliações, a palavra que mais aparece depois de \"resultado\".",
+            "icone": "pele"
+          },
+          {
+            "nome": "Vasinhos",
+            "descricao": "Aplicação nos microvasos das pernas. Quantas sessões vão ser precisas, ela diz na avaliação.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Olheiras",
+            "descricao": "Primeiro se descobre o tipo da olheira: vascular, pigmentar ou estrutural. O tratamento muda com ele.",
+            "icone": "olho"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/calendario-toxina.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar o retorno leva uma conversa curta",
+        "lead": "O mesmo número do Instagram e do Google. A data da última aplicação fica anotada, e o horário sai ali mesmo.",
+        "cta": "Chamar a Dra. Loriane",
+        "contato": "Dra. Loriane Fagundes",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Fiz toxina com a Dra. no meio do ano. Já está na hora de voltar?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oii! Conferi aqui: foi em 12 de junho, então já passou de 5 meses. É um bom momento, sim."
+          },
+          {
+            "de": "paciente",
+            "texto": "Tem horário no sábado de manhã?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem! Sábado a gente atende das 9h às 15h. Fica melhor às 9h30 ou às 11h?"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/avaliacoes.html"
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já foi",
+        "itens": [
+          {
+            "texto": "Ela realizou limpeza de pele e peeling na minha sogra. Explicou tudo com muita paciência e deixou minha sogra super à vontade.",
+            "autor": "Raquel S.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Super cuidadosa. Tornou um procedimento que geralmente é doloroso em um momento muito relaxante.",
+            "autor": "Ana Júlia F.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Calma, te passa confiança. Clínica linda e muito limpa.",
+            "autor": "Amanda R.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "reels",
+      "data": {
+        "titulo": "No Instagram",
+        "lead": "A Dra. Loriane responde dúvida, mostra aparelho e conta o dia a dia do consultório.",
+        "perfil": {
+          "texto": "@dralorianefagundes",
+          "href": "https://www.instagram.com/dralorianefagundes/"
+        },
+        "itens": [
+          {
+            "imagem": "midia/reel-13.jpg",
+            "legenda": "É brega ou não é?",
+            "link": "https://www.instagram.com/dralorianefagundes/reel/Df2tJw-NNni/"
+          },
+          {
+            "imagem": "midia/reel-18.jpg",
+            "legenda": "Vasinhos: sai com uma sessão?",
+            "link": "https://www.instagram.com/dralorianefagundes/reel/DfA_vGoOtpD/"
+          },
+          {
+            "imagem": "midia/reel-19.jpg",
+            "legenda": "O aparelho que não dá choque",
+            "link": "https://www.instagram.com/dralorianefagundes/reel/De2mAjTtdSR/"
+          },
+          {
+            "imagem": "midia/reel-14.jpg",
+            "legenda": "Não atrasem, por favor",
+            "link": "https://www.instagram.com/dralorianefagundes/reel/Dfz_5usgr6y/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "A toxina dói?",
+            "r": "A agulha é bem fina e a aplicação leva poucos minutos. A maioria das pacientes descreve como uma picadinha, e dá para voltar à rotina no mesmo dia."
+          },
+          {
+            "p": "Quanto tempo dura o efeito da toxina?",
+            "r": "Em geral de 4 a 6 meses, variando de pessoa para pessoa. A revisão de 15 dias serve para conferir o resultado e ajustar, se precisar."
+          },
+          {
+            "p": "O preenchimento labial fica natural?",
+            "r": "O volume é planejado na avaliação, a partir do formato da sua boca. Dá para começar com pouco e completar depois."
+          },
+          {
+            "p": "A limpeza de pele deixa o rosto marcado?",
+            "r": "Pode ficar uma vermelhidão leve, que costuma passar em algumas horas. Nas avaliações, várias pacientes contam que não ficaram doloridas depois."
+          },
+          {
+            "p": "Atende aos sábados?",
+            "r": "Sim, das 9h às 15h. De segunda a sexta, das 9h às 19h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "107",
+            "rotulo": "avaliações",
+            "contar": 107
+          },
+          {
+            "valor": "11,8 mil",
+            "rotulo": "seguidores no Instagram"
+          },
+          {
+            "valor": "6",
+            "rotulo": "dias por semana de atendimento",
+            "contar": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Faz tempo da última aplicação?",
+        "lead": "Mande uma mensagem com o que você quer tratar. A Dra. Loriane responde e a gente acha um horário.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {
+        "links": [
+          {
+            "texto": "Instagram",
+            "href": "https://www.instagram.com/dralorianefagundes/"
+          }
+        ]
+      }
+    }
+  ]
+}

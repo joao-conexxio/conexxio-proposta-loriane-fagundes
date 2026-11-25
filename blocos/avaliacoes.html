@@ -1,0 +1,44 @@
+<section class="blk-av" id="avaliacoes">
+  <div class="wrap">
+    <div class="blk-av__cab" data-reveal>
+      <p class="blk-av__eyebrow">5,0 no Google · 107 avaliações</p>
+      <h2 class="blk-av__titulo">O que as pacientes mais escrevem</h2>
+      <p class="blk-av__lead">Contamos as palavras que mais se repetem nas avaliações da clínica. "Resultado" vem em primeiro, e "confiança" logo atrás.</p>
+    </div>
+    <div class="blk-av__corpo">
+      <ol class="blk-av__lista">
+        <li data-reveal style="--d:0ms;--w:100%"><span class="blk-av__termo">resultado</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="9">9</span> menções</span></li>
+        <li data-reveal style="--d:60ms;--w:67%"><span class="blk-av__termo">limpeza de pele</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="6">6</span> menções</span></li>
+        <li data-reveal style="--d:120ms;--w:67%"><span class="blk-av__termo">certeza</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="6">6</span> menções</span></li>
+        <li data-reveal style="--d:180ms;--w:56%"><span class="blk-av__termo">confiança</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="5">5</span> menções</span></li>
+        <li data-reveal style="--d:240ms;--w:33%"><span class="blk-av__termo">preenchimento labial</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="3">3</span> menções</span></li>
+        <li data-reveal style="--d:300ms;--w:22%"><span class="blk-av__termo">paciência</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="2">2</span> menções</span></li>
+      </ol>
+      <blockquote class="blk-av__citacao" data-reveal>
+        <p>"Até quem é tímido se sente à vontade no consultório dela."</p>
+        <cite>Ana Júlia, no Google</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-av{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 10%,var(--bg))}
+.blk-av__cab{max-width:44rem;margin-bottom:var(--sp-5)}
+.blk-av__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-av__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-av__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-av__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-av__lista li{display:grid;grid-template-columns:1fr auto;grid-template-areas:"termo n" "barra barra";gap:.45rem .75rem;align-items:baseline}
+.blk-av__termo{grid-area:termo;font-family:var(--f-display);font-size:1.5rem;color:var(--ink)}
+.blk-av__n{grid-area:n;font-size:var(--t-label);letter-spacing:.04em;color:color-mix(in srgb,var(--ink) 62%,transparent)}
+.blk-av__barra{grid-area:barra;height:6px;border-radius:99px;background:color-mix(in srgb,var(--brand) 12%,transparent);position:relative;overflow:hidden}
+.blk-av__barra::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);min-width:6px;border-radius:inherit;background:linear-gradient(90deg,var(--brand),var(--pulse))}
+.blk-av__citacao{margin:var(--sp-5) 0 0;padding:var(--sp-4);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 16%,transparent)}
+.blk-av__citacao p{margin:0;font-family:var(--f-display);font-size:clamp(1.6rem,4vw,2.4rem);line-height:1.2;color:var(--ink);text-wrap:balance}
+.blk-av__citacao cite{display:block;margin-top:var(--sp-3);font-style:normal;font-size:var(--t-label);letter-spacing:.06em;text-transform:uppercase;color:var(--brand)}
+@media (min-width:900px){
+  .blk-av__corpo{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:4.5rem;align-items:center}
+  .blk-av__citacao{margin:0}
+}
+</style>
